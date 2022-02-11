@@ -40,9 +40,9 @@ function coinFlip() {
 function coinFlips(flips) {
   const results = []
   for (let i = 0; i < flips; i++) {
-    results.push(coinFlip)
+    results.push(coinFlip())
   }
-
+  return results
 }
 
 /** Count multiple flips
