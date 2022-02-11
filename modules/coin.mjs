@@ -18,8 +18,6 @@ function coinFlip() {
   return (Math.floor(Math.random() * 2) == 0) ? 'heads' : 'tails'
 }
 
-console.log(coinFlip())
-
 /** Multiple coin flips
  * 
  * Write a function that accepts one parameter (number of flips) and returns an array of 
@@ -96,3 +94,4 @@ function flipACoin(call) {
  * 
  * Export all of your named functions
 */
+export { coinFlip, coinFlips, countFlips, flipACoin }
