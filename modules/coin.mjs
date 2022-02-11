@@ -86,9 +86,10 @@ function countFlips(array) {
 
 function flipACoin(call) {
   var actual = coinFlip()
-  return {call: call, flip: actual, result: call == actual ? result = 'win' : result = 'lose' }
+  var result = ''
+  call == actual ? result = 'win' : result = 'lose' 
+  return {call: call, flip: actual, result: result}
 }
-
 
 /** Export 
  * 
