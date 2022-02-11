@@ -69,8 +69,8 @@ function countFlips(array) {
         tails++
       } else {
       }
-      return { heads: heads, tails: tails }
     }
+    return { heads: heads, tails: tails }
   } else {
     if (array[0] == 'heads') {
       return { heads: 1}
